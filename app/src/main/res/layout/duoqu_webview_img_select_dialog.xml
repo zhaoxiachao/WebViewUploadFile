@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/duoqu_webview_img_select_dialog_photo_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="54dp"
+        android:text="手机相册"
+        android:textColor="#323232"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.333dp"
+        android:background="#dddddd" />
+
+    <TextView
+        android:id="@+id/duoqu_webview_img_select_dialog_shooting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="54dp"
+        android:text="相机照相"
+        android:textColor="#323232"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.333dp"
+        android:background="#dddddd" />
+    
+    <TextView
+        android:id="@+id/duoqu_webview_img_select_dialog_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="54dp"
+        android:text="文件管理器"
+        android:textColor="#323232"
+        android:textSize="16dp" />
+    
+</LinearLayout>
